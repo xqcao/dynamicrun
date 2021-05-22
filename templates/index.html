@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{{ url_for('static',filename='css/styles.css')}}" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Hello Flask</h2>
+        <p>Please add your python executable code</p>
+        <textarea rows="20" cols="60" id="codeid"></textarea>
+        <br/>
+        <button onclick="saveIt()">Submit</button>
+        <script src="{{ url_for('static',filename='js/myclient.js')}}"></script>
+    </body>
+</html>
